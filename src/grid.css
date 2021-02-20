@@ -1,0 +1,27 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 0.1fr 1fr 1fr;
+    grid-template-rows: 0fr 1fr 1fr 0.1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "navi navi navi"
+      "asidemin content content"
+      "asidemin content content"
+      "footer footer footer";
+  }
+  
+  .navi { grid-area: navi; }
+  
+  .asidemin { grid-area: asidemin; }
+  
+  .content { grid-area: content; }
+  
+  .footer { grid-area: footer; }
+  
+  .minicon{
+      color: #B5B5C3 !important;
+  }
+
+  .minicon:hover{
+      color: #F64E60 !important;
+  }

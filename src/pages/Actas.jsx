@@ -1,12 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { BsNewspaper } from "react-icons/bs";
-import photo from "../images/acta-1.jpg";
-import photo2 from "../images/acta-2.jpg";
-import photo3 from "../images/acta-3.jpg";
-import photo4 from "../images/acta-4.jpg";
-import photo5 from "../images/acta-5.jpg";
-import photo6 from "../images/acta-6.jpg";
 
 const Actas = () => {
   return (
@@ -19,7 +13,7 @@ const Actas = () => {
         {/*begin::Entry*/}
         <div className="d-flex flex-column-fluid">
           {/*begin::Container*/}
-          <div className="container">
+          <div className="container-fluid">
             <div className="card card-custom">
               <div className="card-header">
                 <div className="card-title mt-2">
@@ -40,192 +34,101 @@ const Actas = () => {
               <div className="card-body">
                 <div>
                   <div className="row">
-                    <div className="col-md-4">
-                      <p className="font-weight-boldest text-center">
-                        Actas de reunión
-                        <div class="separator separator-solid separator-border-3"></div>
-                      </p>
+                  <div className="col-xl-4">
+                    {/*begin::Engage Widget 2*/}
+                    <div className="card card-custom card-stretch gutter-b">
+                      <div className="card-body d-flex p-0">
+                        <div className="flex-grow-1 bg-success p-8 card-rounded flex-grow-1 bgi-no-repeat" style={{backgroundPosition: 'calc(100% + 0.5rem) bottom', backgroundSize: 'auto 70%', backgroundImage: 'url(assets/media/svg/humans/custom-3.svg)'}}>
+                          <h4 className="text-inverse-danger mt-2 font-weight-bolder">Actas de reunión</h4>
+                          <p className="text-inverse-danger my-6">Boost marketing &amp; sales
+                            <br />through product confidence.</p>
+                            <Link to="/crearacta" className="btn btn-warning mr-2 font-weight-bold py-2 px-6">Crear</Link>
+                          
+                          <a href="#" className="btn btn-warning font-weight-bold py-2 px-6 mf-2">Learn</a>
+                        </div>
+                      </div>
+                    </div>
+                    {/*end::Engage Widget 2*/}
+                  </div>
+                  <div className="col-xl-4">
+                    {/*begin::Engage Widget 2*/}
+                    <div className="card card-custom card-stretch gutter-b">
+                      <div className="card-body d-flex p-0">
+                        <div className="flex-grow-1 bg-danger p-8 card-rounded flex-grow-1 bgi-no-repeat" style={{backgroundPosition: 'calc(100% + 0.5rem) bottom', backgroundSize: 'auto 70%', backgroundImage: 'url(assets/media/svg/humans/custom-3.svg)'}}>
+                          <h4 className="text-inverse-danger mt-2 font-weight-bolder">Actas de cambios</h4>
+                          <p className="text-inverse-danger my-6">Boost marketing &amp; sales
+                            <br />through product confidence.</p>
+                          <a href="#" className="btn btn-warning mr-2 font-weight-bold py-2 px-6">Learn</a>
+                          <a href="#" className="btn btn-warning font-weight-bold py-2 px-6 mf-2">Learn</a>
+                        </div>
+                      </div>
+                    </div>
+                    {/*end::Engage Widget 2*/}
+                  </div>
+                  <div className="col-xl-4">
+                    {/*begin::Engage Widget 2*/}
+                    <div className="card card-custom card-stretch gutter-b">
+                      <div className="card-body d-flex p-0">
+                        <div className="flex-grow-1 bg-warning p-8 card-rounded flex-grow-1 bgi-no-repeat" style={{backgroundPosition: 'calc(100% + 0.5rem) bottom', backgroundSize: 'auto 70%', backgroundImage: 'url(assets/media/svg/humans/custom-3.svg)'}}>
+                          <h4 className="text-inverse-danger mt-2 font-weight-bolder">Actas de inicio de proyecto</h4>
+                          <p className="text-inverse-danger my-6">Boost marketing &amp; sales
+                            <br />through product confidence.</p>
+                          <a href="#" className="btn btn-warning mr-2 font-weight-bold py-2 px-6">Learn</a>
+                          <a href="#" className="btn btn-warning font-weight-bold py-2 px-6 mf-2">Learn</a>
+                        </div>
+                      </div>
+                    </div>
+                    {/*end::Engage Widget 2*/}
+                  </div>
 
-                      <div className="card card-custom overlay">
-                        <div className="card-body p-0">
-                          <div className="overlay-wrapper">
-                            <img src={photo} alt="" className="w-100 rounded" />
-                          </div>
-
-                          <div className="overlay-layer">
-                            <a
-                              href="#"
-                              className="btn font-weight-bold btn-primary btn-shadow"
-                            >
-                              Crear
-                            </a>
-                            <a
-                              href="#"
-                              className="btn font-weight-bold btn-light-primary btn-shadow ml-2"
-                            >
-                              Ver listado
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-md-4">
-                    <p className="font-weight-boldest text-center">
-                        Actas de cambios
-                        <div class="separator separator-solid separator-border-3"></div>
-                      </p>
-                      <div className="card card-custom overlay">
-                        <div className="card-body p-0">
-                          <div className="overlay-wrapper">
-                            <img
-                              src={photo2}
-                              alt=""
-                              className="w-100 rounded"
-                            />
-                          </div>
-                          <div className="overlay-layer">
-                            <a
-                              href="#"
-                              className="btn font-weight-bold btn-primary btn-shadow"
-                            >
-                              Explore
-                            </a>
-                            <a
-                              href="#"
-                              className="btn font-weight-bold btn-light-primary btn-shadow ml-2"
-                            >
-                              Purchase
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-md-4">
-                    <p className="font-weight-boldest text-center">
-                        Actas de inicio de proyecto
-                        <div class="separator separator-solid separator-border-3"></div>
-                      </p>
-                      <div className="card card-custom overlay">
-                        <div className="card-body p-0">
-                          <div className="overlay-wrapper">
-                            <img
-                              src={photo3}
-                              alt=""
-                              className="w-100 rounded"
-                            />
-                          </div>
-                          <div className="overlay-layer">
-                            <a
-                              href="#"
-                              className="btn font-weight-bold btn-primary btn-shadow"
-                            >
-                              Explore
-                            </a>
-                            <a
-                              href="#"
-                              className="btn font-weight-bold btn-light-primary btn-shadow ml-2"
-                            >
-                              Purchase
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                   
                   </div>
                   <div className="row mt-5">
-                    <div className="col-md-4">
-                    <p className="font-weight-boldest text-center">
-                        Actas de cierre de proyecto
-                        <div class="separator separator-solid separator-border-3"></div>
-                      </p>
-                      <div className="card card-custom overlay">
-                        <div className="card-body p-0">
-                          <div className="overlay-wrapper">
-                            <img
-                              src={photo4}
-                              alt=""
-                              className="w-100 rounded"
-                            />
-                          </div>
-                          <div className="overlay-layer">
-                            <a
-                              href="#"
-                              className="btn font-weight-bold btn-primary btn-shadow"
-                            >
-                              Explore
-                            </a>
-                            <a
-                              href="#"
-                              className="btn font-weight-bold btn-light-primary btn-shadow ml-2"
-                            >
-                              Purchase
-                            </a>
-                          </div>
+                  <div className="col-xl-4">
+                    {/*begin::Engage Widget 2*/}
+                    <div className="card card-custom card-stretch gutter-b">
+                      <div className="card-body d-flex p-0">
+                        <div className="flex-grow-1 bg-primary p-8 card-rounded flex-grow-1 bgi-no-repeat" style={{backgroundPosition: 'calc(100% + 0.5rem) bottom', backgroundSize: 'auto 70%', backgroundImage: 'url(assets/media/svg/humans/custom-3.svg)'}}>
+                          <h4 className="text-inverse-danger mt-2 font-weight-bolder">Actas de cierre de proyecto</h4>
+                          <p className="text-inverse-danger my-6">Boost marketing &amp; sales
+                            <br />through product confidence.</p>
+                          <a href="#" className="btn btn-warning mr-2 font-weight-bold py-2 px-6">Learn</a>
+                          <a href="#" className="btn btn-warning font-weight-bold py-2 px-6 mf-2">Learn</a>
                         </div>
                       </div>
                     </div>
-                    <div className="col-md-4">
-                    <p className="font-weight-boldest text-center">
-                        Actas de aprobación, visual mappging y diseño
-                        <div class="separator separator-solid separator-border-3"></div>
-                      </p>
-                      <div className="card card-custom overlay">
-                        <div className="card-body p-0">
-                          <div className="overlay-wrapper">
-                            <img
-                              src={photo5}
-                              alt=""
-                              className="w-100 rounded"
-                            />
-                          </div>
-                          <div className="overlay-layer">
-                            <a
-                              href="#"
-                              className="btn font-weight-bold btn-primary btn-shadow"
-                            >
-                              Explore
-                            </a>
-                            <a
-                              href="#"
-                              className="btn font-weight-bold btn-light-primary btn-shadow ml-2"
-                            >
-                              Purchase
-                            </a>
-                          </div>
+                    {/*end::Engage Widget 2*/}
+                  </div>
+                  <div className="col-xl-4">
+                    {/*begin::Engage Widget 2*/}
+                    <div className="card card-custom card-stretch gutter-b">
+                      <div className="card-body d-flex p-0">
+                        <div className="flex-grow-1 bg-info p-8 card-rounded flex-grow-1 bgi-no-repeat" style={{backgroundPosition: 'calc(100% + 0.5rem) bottom', backgroundSize: 'auto 70%', backgroundImage: 'url(assets/media/svg/humans/custom-3.svg)'}}>
+                          <h4 className="text-inverse-danger mt-2 font-weight-bolder">Actas de aprobación, visual mapping y diseño</h4>
+                          <p className="text-inverse-danger my-6">Boost marketing &amp; sales
+                            <br />through product confidence.</p>
+                          <a href="#" className="btn btn-warning mr-2 font-weight-bold py-2 px-6">Learn</a>
+                          <a href="#" className="btn btn-warning font-weight-bold py-2 px-6 mf-2">Learn</a>
                         </div>
                       </div>
                     </div>
-                    <div className="col-md-4">
-                    <p className="font-weight-boldest text-center">
-                        Actas de autorización
-                        <div class="separator separator-solid separator-border-3"></div>
-                      </p>
-                      <div className="card card-custom overlay">
-                        <div className="card-body p-0">
-                          <div className="overlay-wrapper">
-                            <img
-                              src={photo6}
-                              alt=""
-                              className="w-100 rounded"
-                            />
-                          </div>
-                          <div className="overlay-layer">
-                            <a
-                              href="#"
-                              className="btn font-weight-bold btn-primary btn-shadow"
-                            >
-                              Explore
-                            </a>
-                            <a
-                              href="#"
-                              className="btn font-weight-bold btn-light-primary btn-shadow ml-2"
-                            >
-                              Purchase
-                            </a>
-                          </div>
+                    {/*end::Engage Widget 2*/}
+                  </div>
+                  <div className="col-xl-4">
+                    {/*begin::Engage Widget 2*/}
+                    <div className="card card-custom card-stretch gutter-b">
+                      <div className="card-body d-flex p-0">
+                        <div className="flex-grow-1 bg-success p-8 card-rounded flex-grow-1 bgi-no-repeat" style={{backgroundPosition: 'calc(100% + 0.5rem) bottom', backgroundSize: 'auto 70%', backgroundImage: 'url(assets/media/svg/humans/custom-3.svg)'}}>
+                          <h4 className="text-inverse-danger mt-2 font-weight-bolder">Actas de autorización</h4>
+                          <p className="text-inverse-danger my-6">Boost marketing &amp; sales
+                            <br />through product confidence.</p>
+                          <a href="#" className="btn btn-warning mr-2 font-weight-bold py-2 px-6">Learn</a>
+                          <a href="#" className="btn btn-warning font-weight-bold py-2 px-6 mf-2">Learn</a>
                         </div>
                       </div>
                     </div>
+                    {/*end::Engage Widget 2*/}
+                  </div>
                   </div>
                   <div className="row">
                     <div className="col-md-4"></div>

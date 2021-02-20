@@ -26,7 +26,7 @@ const Content = () => {
   {/*begin::Entry*/}
   <div className="d-flex flex-column-fluid">
     {/*begin::Container*/}
-    <div className="container">
+    <div className="container-fluid">
       {/*begin::Row*/}
 <div className="row">
   <div className="col-xl-4">

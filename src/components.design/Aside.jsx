@@ -7,6 +7,7 @@ const Aside = () => {
   return (
     <>
       {/*begin::Aside*/}
+      {/* */}
       <div
         className="aside aside-left d-flex flex-column flex-row-auto"
         id="kt_aside"
@@ -81,6 +82,7 @@ const Aside = () => {
         </div>
         {/*end::Aside Menu*/}
       </div>
+      
       {/*end::Aside*/}
     </>
   );

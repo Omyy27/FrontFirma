@@ -10,7 +10,7 @@ const Footer = () => {
     {/*begin::Copyright*/}
     <div className="text-dark order-2 order-md-1">
       <span className="text-muted font-weight-bold mr-2">2021©</span>
-      <a href="http://keenthemes.com/metronic" target="_blank" className="text-dark-75 text-hover-primary">Keenthemes</a>
+      <a href="http://keenthemes.com/metronic" target="_blank" className="text-dark-75 text-hover-primary">DevelopApp</a>
     </div>
     {/*end::Copyright*/}
     {/*begin::Nav*/}

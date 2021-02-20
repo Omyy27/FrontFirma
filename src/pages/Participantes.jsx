@@ -209,7 +209,7 @@ const Participantes = (props) => {
         {/*begin::Entry*/}
         <div className="d-flex flex-column-fluid">
           {/*begin::Container*/}
-          <div className="container">
+          <div className="container-fluid">
             <div className="row">
               <div className="col-lg-8">
                 <div className="card card-custom">
